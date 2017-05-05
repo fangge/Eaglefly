@@ -1,0 +1,42 @@
+//栅格化
+//宽屏是61，窄屏为49
+$col_num : 13,11,48,49,61,2,36,43,17,8,39,47;
+@each $val in $col_num {
+  %g-col-#{$val}{
+    width: $val*20px;
+    @include clearfix;
+  }
+}
+//主框架
+.main{
+  @extend %g-col-61;
+  @include clearfix;
+  margin: 0 auto;
+}
+.main2{
+  @extend %g-col-49;
+  @include clearfix;
+  margin: 30px auto 70px;
+}
+.no-border{
+  border: 0!important;
+}
+//头屏
+$col_num : (32 24),(16 12),(13,13);
+@each $val1, $val2 in $col_num {
+  .span-#{$val1}{
+    width: $val1*20px;
+    height: 608-40px;
+    @include clearfix;
+    @include float(left);
+  }
+  .g-narrow .span-#{$val1}{
+    width: $val2*20px;
+  }
+}
+
+.g-narrow{
+  .main{
+    @extend %g-col-49;
+  }
+}
