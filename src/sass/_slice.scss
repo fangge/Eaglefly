@@ -1,211 +1,163 @@
 // CSS Sprites切片样式
-%add-hov {
-    width: 13px;
-    height: 13px;
-    background-image: url(../slice/add-hov.png);
+%banner-text1 {
+    width: 602px;
+    height: 314px;
+    background-image: url(../slice/banner-text1.png);
     background-repeat: no-repeat;
 }
-%add {
-    width: 13px;
-    height: 13px;
-    background-image: url(../slice/add.png);
+%btn1-hov {
+    width: 144px;
+    height: 145px;
+    background-image: url(../slice/btn1-hov.png);
     background-repeat: no-repeat;
 }
-%alert {
-    width: 2px;
-    height: 6px;
-    background-image: url(../slice/alert.png);
+%btn1 {
+    width: 144px;
+    height: 145px;
+    background-image: url(../slice/btn1.png);
     background-repeat: no-repeat;
 }
-%checked {
-    width: 20px;
-    height: 20px;
-    background-image: url(../slice/checked.png);
+%btn2-hov {
+    width: 144px;
+    height: 145px;
+    background-image: url(../slice/btn2-hov.png);
     background-repeat: no-repeat;
 }
-%delete-hov {
-    width: 13px;
-    height: 12px;
-    background-image: url(../slice/delete-hov.png);
+%btn2 {
+    width: 144px;
+    height: 145px;
+    background-image: url(../slice/btn2.png);
     background-repeat: no-repeat;
 }
-%delete {
-    width: 13px;
-    height: 12px;
-    background-image: url(../slice/delete.png);
+%btn3-hov {
+    width: 144px;
+    height: 145px;
+    background-image: url(../slice/btn3-hov.png);
     background-repeat: no-repeat;
 }
-%next-hover {
-    width: 8px;
-    height: 13px;
-    background-image: url(../slice/next-hover.png);
+%btn3 {
+    width: 144px;
+    height: 145px;
+    background-image: url(../slice/btn3.png);
+    background-repeat: no-repeat;
+}
+%btn4-hov {
+    width: 144px;
+    height: 145px;
+    background-image: url(../slice/btn4-hov.png);
+    background-repeat: no-repeat;
+}
+%btn4 {
+    width: 144px;
+    height: 145px;
+    background-image: url(../slice/btn4.png);
+    background-repeat: no-repeat;
+}
+%btn5-hov {
+    width: 144px;
+    height: 145px;
+    background-image: url(../slice/btn5-hov.png);
+    background-repeat: no-repeat;
+}
+%btn5 {
+    width: 144px;
+    height: 145px;
+    background-image: url(../slice/btn5.png);
+    background-repeat: no-repeat;
+}
+%btn6-hov {
+    width: 144px;
+    height: 145px;
+    background-image: url(../slice/btn6-hov.png);
+    background-repeat: no-repeat;
+}
+%btn6 {
+    width: 144px;
+    height: 145px;
+    background-image: url(../slice/btn6.png);
+    background-repeat: no-repeat;
+}
+%intro {
+    width: 27px;
+    height: 25px;
+    background-image: url(../slice/intro.png);
+    background-repeat: no-repeat;
+}
+%logo {
+    width: 114px;
+    height: 114px;
+    background-image: url(../slice/logo.png);
+    background-repeat: no-repeat;
+}
+%next-hov {
+    width: 31px;
+    height: 57px;
+    background-image: url(../slice/next-hov.png);
     background-repeat: no-repeat;
 }
 %next {
-    width: 8px;
-    height: 13px;
+    width: 31px;
+    height: 57px;
     background-image: url(../slice/next.png);
     background-repeat: no-repeat;
 }
-%pause-hov {
-    width: 6px;
-    height: 10px;
-    background-image: url(../slice/pause-hov.png);
-    background-repeat: no-repeat;
-}
-%pause {
-    width: 6px;
-    height: 10px;
-    background-image: url(../slice/pause.png);
-    background-repeat: no-repeat;
-}
-%pnum {
-    width: 14px;
-    height: 12px;
-    background-image: url(../slice/pnum.png);
-    background-repeat: no-repeat;
-}
-%pop-alert {
-    width: 48px;
-    height: 48px;
-    background-image: url(../slice/pop-alert.png);
-    background-repeat: no-repeat;
-}
-%pop-alert2 {
-    width: 48px;
-    height: 48px;
-    background-image: url(../slice/pop-alert2.png);
-    background-repeat: no-repeat;
-}
-%pop-close {
-    width: 12px;
-    height: 12px;
-    background-image: url(../slice/pop-close.png);
-    background-repeat: no-repeat;
-}
-%prev-hover {
-    width: 8px;
-    height: 13px;
-    background-image: url(../slice/prev-hover.png);
+%prev-hov {
+    width: 31px;
+    height: 57px;
+    background-image: url(../slice/prev-hov.png);
     background-repeat: no-repeat;
 }
 %prev {
-    width: 8px;
-    height: 13px;
+    width: 31px;
+    height: 57px;
     background-image: url(../slice/prev.png);
     background-repeat: no-repeat;
 }
-%radio-checked {
-    width: 14px;
-    height: 14px;
-    background-image: url(../slice/radio-checked.png);
+%title {
+    width: 647px;
+    height: 99px;
+    background-image: url(../slice/title.png);
     background-repeat: no-repeat;
 }
-%radio {
-    width: 14px;
-    height: 14px;
-    background-image: url(../slice/radio.png);
+%title2 {
+    width: 830px;
+    height: 99px;
+    background-image: url(../slice/title2.png);
     background-repeat: no-repeat;
 }
-%reupload {
-    width: 16px;
-    height: 14px;
-    background-image: url(../slice/reupload.png);
+%title3 {
+    width: 631px;
+    height: 98px;
+    background-image: url(../slice/title3.png);
     background-repeat: no-repeat;
 }
-%search-hov {
-    width: 16px;
-    height: 16px;
-    background-image: url(../slice/search-hov.png);
+%title4 {
+    width: 631px;
+    height: 99px;
+    background-image: url(../slice/title4.png);
     background-repeat: no-repeat;
 }
-%search {
-    width: 16px;
-    height: 16px;
-    background-image: url(../slice/search.png);
+%title5 {
+    width: 752px;
+    height: 99px;
+    background-image: url(../slice/title5.png);
     background-repeat: no-repeat;
 }
-%start-hov {
-    width: 8px;
-    height: 12px;
-    background-image: url(../slice/start-hov.png);
+%title6 {
+    width: 444px;
+    height: 98px;
+    background-image: url(../slice/title6.png);
     background-repeat: no-repeat;
 }
-%start {
-    width: 8px;
-    height: 12px;
-    background-image: url(../slice/start.png);
+%top-hov {
+    width: 35px;
+    height: 20px;
+    background-image: url(../slice/top-hov.png);
     background-repeat: no-repeat;
 }
-%status-pause-hov {
-    width: 6px;
-    height: 10px;
-    background-image: url(../slice/status-pause-hov.png);
-    background-repeat: no-repeat;
-}
-%status-pause {
-    width: 6px;
-    height: 10px;
-    background-image: url(../slice/status-pause.png);
-    background-repeat: no-repeat;
-}
-%status-reload-hov {
-    width: 12px;
-    height: 12px;
-    background-image: url(../slice/status-reload-hov.png);
-    background-repeat: no-repeat;
-}
-%status-reload {
-    width: 12px;
-    height: 12px;
-    background-image: url(../slice/status-reload.png);
-    background-repeat: no-repeat;
-}
-%status-start-hov {
-    width: 8px;
-    height: 12px;
-    background-image: url(../slice/status-start-hov.png);
-    background-repeat: no-repeat;
-}
-%status-start {
-    width: 8px;
-    height: 12px;
-    background-image: url(../slice/status-start.png);
-    background-repeat: no-repeat;
-}
-%step-alert {
-    width: 12px;
-    height: 12px;
-    background-image: url(../slice/step-alert.png);
-    background-repeat: no-repeat;
-}
-%tag-close {
-    width: 7px;
-    height: 7px;
-    background-image: url(../slice/tag-close.png);
-    background-repeat: no-repeat;
-}
-%upload-cover-hov {
-    width: 320px;
-    height: 180px;
-    background-image: url(../slice/upload-cover-hov.png);
-    background-repeat: no-repeat;
-}
-%upload-cover {
-    width: 320px;
-    height: 180px;
-    background-image: url(../slice/upload-cover.png);
-    background-repeat: no-repeat;
-}
-%upload-icon-hov {
-    width: 140px;
-    height: 140px;
-    background-image: url(../slice/upload-icon-hov.png);
-    background-repeat: no-repeat;
-}
-%upload-icon {
-    width: 140px;
-    height: 140px;
-    background-image: url(../slice/upload-icon.png);
+%top {
+    width: 35px;
+    height: 20px;
+    background-image: url(../slice/top.png);
     background-repeat: no-repeat;
 }
