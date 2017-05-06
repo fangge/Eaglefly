@@ -6,3 +6,17 @@
 //scss函数
 @import "slice";
 //雪碧图
+@import "structure/header";
+@import "structure/swiper-3.4.2.min";
+body,html{
+  background: #f7f7f7;
+}
+body{
+  width: 100%;
+  max-width:1920px;
+  min-width:1180px;
+}
+.main{
+  width: 1180px;
+  margin: 0 auto;
+}
