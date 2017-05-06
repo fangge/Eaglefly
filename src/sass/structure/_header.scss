@@ -1,5 +1,6 @@
 header {
   width: 100%;
+  margin-bottom:90px;
 }
 nav{
   position: absolute;
@@ -157,5 +158,21 @@ nav{
   top:286px;
   left:50%;
   margin-left:-36px;
+  z-index: 100;
+}
+.contact-num{
+  width: 463px;
+  height: 75px;
+  line-height: 75px;
+  box-sizing: border-box;
+  border:2px solid rgba(255, 255, 255, 0.5);
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  left:50%;
+  bottom:50px;
+  margin-left:-232px;
   z-index: 100;
 }

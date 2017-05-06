@@ -20,3 +20,72 @@ body{
   width: 1180px;
   margin: 0 auto;
 }
+.col-title1{
+  @extend %title;
+  margin: 0 auto;
+}
+.skydive-nav{
+  text-align: center;
+  position: static;
+  margin: 65px 0 50px;
+  span{
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 14px;
+    opacity: 1;
+  }
+  .skydive-nav1{
+    @extend %btn1;
+    &:hover,&.swiper-pagination-bullet-active{
+      @extend %btn1-hov;
+    }
+  }
+  .skydive-nav2{
+    @extend %btn2;
+    &:hover,&.swiper-pagination-bullet-active{
+      @extend %btn2-hov;
+    }
+  }
+  .skydive-nav3{
+    @extend %btn3;
+    &:hover,&.swiper-pagination-bullet-active{
+      @extend %btn3-hov;
+    }
+  }
+  .skydive-nav4{
+    @extend %btn4;
+    &:hover,&.swiper-pagination-bullet-active{
+      @extend %btn4-hov;
+    }
+  }
+  .skydive-nav5{
+    @extend %btn5;
+    &:hover,&.swiper-pagination-bullet-active{
+      @extend %btn5-hov;
+    }
+  }
+  .skydive-nav6{
+    @extend %btn6;
+    &:hover,&.swiper-pagination-bullet-active{
+      @extend %btn6-hov;
+    }
+  }
+}
+.skydive-cont{
+  .swiper-slide{
+    width: 100%;
+    height: 630px;
+    overflow: hidden;
+    position: relative;
+    img{
+      width: 1920px;
+      position: absolute;
+      left:50%;
+      top:0;
+      margin-left:-960px;
+    }
+  }
+  .sky-cont-intro{
+    position: absolute;
+  }
+}
