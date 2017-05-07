@@ -104,12 +104,7 @@ body{
     font-size: 33px;
     padding-bottom:30px;
   }
-  .line{
-    width: 50px;
-    height: 2px;
-    background: #f6b226;
-    margin-bottom:30px;
-  }
+
   p{
     color: #333;
     font-size: 15px;
@@ -125,9 +120,127 @@ body{
 .skydive{
   margin-bottom:120px;
 }
-
+.line{
+  width: 50px;
+  height: 2px;
+  background: #f6b226;
+  margin-bottom:30px;
+}
 
 .col-title2{
   @extend %title2;
   margin: 0 auto;
+}
+
+.coach-preview{
+  height: 160px;
+  position: relative;
+  margin-bottom:20px;
+  margin-top:38px;
+  .swiper-container{
+    width: 1080px;
+    height: 160px;
+    overflow: hidden;
+    margin-left:57px;
+  }
+  .coach-preview-wrap{
+    @include clearfix;
+    li{
+      float:left;
+      width: 160px;
+      height: 160px;
+      position: relative;
+      overflow: hidden;
+      &:hover{
+        .coach-prevew-bg{
+          @include opacity(1);
+        }
+      }
+      &.preview-on{
+        .coach-prevew-bg{
+          @include opacity(1);
+        }
+      }
+    }
+  }
+
+  .coach-prevew-bg{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top:0;
+    left:0;
+    background: rgba(3, 110, 182, 0.8);
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 160px;
+    @extend %ani;
+    @include opacity(0);
+    z-index: 99;
+  }
+}
+.prev-btn,.next-btn{
+  position: absolute;
+  top:52px;
+}
+.prev-btn{
+  left:0;
+  @extend %prev;
+  &:hover{
+    @extend %prev-hov;
+  }
+}
+.next-btn{
+  right:0;
+  @extend %next;
+  &:hover{
+    @extend %next-hov;
+  }
+}
+.coach-view{
+  .swiper-wrapper{
+    width: 100%;
+    height: 579px;
+    overflow: hidden;
+    .swiper-slide{
+      position: relative;
+      width: 100%;
+      height: 579px;
+      img{
+        position: absolute;
+        left:50%;
+        margin-left:-969px;
+        top:0;
+      }
+      .coach-detail{
+        width: 830px;
+        background: #036eb6;
+        box-sizing: border-box;
+        height: 579px;
+        padding: 65px 0 0 40px;
+        position: absolute;
+        left:50%;
+        margin-left:121px;
+        z-index: 100;
+        h3{
+          color: #fff;
+          font-size: 40px;
+          padding-bottom:30px;
+        }
+        p{
+          width: 388px;
+          font-size: 15px;
+          line-height: 30px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+.prev-hidden-btn,.next-hidden-btn{
+  @include opacity(0);
+}
+.coachteam{
+  margin-bottom:118px;
 }
