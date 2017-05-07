@@ -31,7 +31,7 @@ body{
   span{
     display: inline-block;
     cursor: pointer;
-    margin: 0 14px;
+    margin: 0 14px!important;
     opacity: 1;
   }
   .skydive-nav1{
@@ -88,4 +88,46 @@ body{
   .sky-cont-intro{
     position: absolute;
   }
+}
+.sky-cont-intro{
+  position: absolute;
+  width: 280px;
+  height:246px;
+  background: #f7f7f7;
+  top:0;
+  z-index: 101;
+  left:50%;
+  box-sizing: border-box;
+  padding: 18px 38px 0;
+  h2{
+    color: #333;
+    font-size: 33px;
+    padding-bottom:30px;
+  }
+  .line{
+    width: 50px;
+    height: 2px;
+    background: #f6b226;
+    margin-bottom:30px;
+  }
+  p{
+    color: #333;
+    font-size: 15px;
+    line-height: 30px;
+  }
+}
+.sky-cont-intro-l{
+  margin-left:-538px;
+}
+.sky-cont-intro-r{
+  margin-left:235px;
+}
+.skydive{
+  margin-bottom:120px;
+}
+
+
+.col-title2{
+  @extend %title2;
+  margin: 0 auto;
 }

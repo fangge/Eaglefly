@@ -15,18 +15,16 @@ seajs.use(['jquery','app/main.js'],function () {
     window.jQuery = window.$ = $;
     seajs.use('swiper',function () {
         var swiper = new Swiper('#swiper1', {
-            pagination: '.swiper-pagination',
-            spaceBetween: 30,
             effect: 'fade',
-            autoplay:1,
-            speed:8000
+            autoplay:5000
         });
-        var swiper = new Swiper('#swiper2', {
-            pagination: '.swiper-pagination',
+        var swiper2 = new Swiper('#swiper2', {
+            pagination: '#swiper2 .swiper-pagination',
             paginationClickable: true,
             paginationBulletRender: function (swiper, index, className) {
                 return '<span class="'+className+' skydive-nav'+(index + 1) +'"></span>';
-            }
+            },
+            autoplay:10000
         });
     })
 
