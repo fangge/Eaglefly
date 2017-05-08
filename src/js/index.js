@@ -37,7 +37,7 @@ seajs.use(['jquery','app/main.js'],function () {
             }
         })
 
-        $('.coach-preview .prev-btn,.coach-view .prev-hidden-btn').on('click', function(e) {
+        $('#preview .prev-btn,.coach-view .prev-hidden-btn').on('click', function(e) {
             e.preventDefault()
             if (viewSwiper.activeIndex == 0) {
                 viewSwiper.slideTo(viewSwiper.slides.length - 1, 1000);
@@ -45,7 +45,7 @@ seajs.use(['jquery','app/main.js'],function () {
             }
             viewSwiper.slidePrev()
         })
-        $('.coach-preview .next-btn,.coach-view .next-hidden-btn').on('click', function(e) {
+        $('#preview .next-btn,.coach-view .next-hidden-btn').on('click', function(e) {
             e.preventDefault()
             if (viewSwiper.activeIndex == viewSwiper.slides.length - 1) {
                 viewSwiper.slideTo(0, 1000);
@@ -54,7 +54,7 @@ seajs.use(['jquery','app/main.js'],function () {
             viewSwiper.slideNext()
         })
 
-        var previewSwiper = new Swiper('.coach-preview .swiper-container', {
+        var previewSwiper = new Swiper('#preview .swiper-container', {
             slidesPerView: 6,
             prevButton:'.prev-btn',
             nextButton:'.next-btn',
@@ -77,6 +77,26 @@ seajs.use(['jquery','app/main.js'],function () {
             }
         }
 
+        var previewSwiper2 = new Swiper('#preview2 .swiper-container', {
+            slidesPerView: 6,
+            prevButton:'.prev-btn',
+            nextButton:'.next-btn',
+            spaceBetween:20
+        })
+
     })
+
+
+    var map1 = new BMap.Map("map1");
+    var point1 = new BMap.Point(111.614457,22.71521);
+    map1.centerAndZoom(point1,15);
+    var marker = new BMap.Marker(point1);
+    map1.addOverlay(marker);
+
+    var map2 = new BMap.Map("map2");
+    var point2 = new BMap.Point(117.579219,36.446141);
+    map2.centerAndZoom(point2,15);
+    var marker2 = new BMap.Marker(point2);
+    map2.addOverlay(marker2);
 
 });
