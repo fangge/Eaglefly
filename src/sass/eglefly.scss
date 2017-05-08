@@ -439,3 +439,68 @@ body{
     color: #333;
   }
 }
+footer{
+  background: #000;
+  height: 235px;
+}
+.footer-link{
+  padding-top:50px;
+  color: #999;
+  padding-bottom:25px;
+  border-bottom:1px solid #333;
+  margin-bottom:25px;
+  a{
+    color: #999;
+    font-size: 14px;
+    padding:0 18px;
+    &:hover{
+      color: #ccc;
+    }
+    &.pr-0{
+      padding-left:0;
+    }
+  }
+  span{
+    color: #ccc;
+    font-size: 18px;
+    float:right;
+  }
+}
+.footer-copyright{
+  color: #666;
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+}
+#bdshare{
+  position: absolute;
+  right:0;
+  bottom:-5px;
+  a{
+    margin: 0 15px;
+  }
+  .bds_more{
+    display: none;
+  }
+  .bds_tsina{
+    @extend %wb;
+    &:hover{
+      @extend %wb-hov;
+      opacity: 1;
+    }
+  }
+  .bds_weixin{
+    @extend %wx;
+    &:hover{
+      @extend %wx-hov;
+      opacity: 1;
+    }
+  }
+  .bds_sqq{
+    @extend %qq;
+    &:hover{
+      @extend %qq-hov;
+      opacity: 1;
+    }
+  }
+}

@@ -107,6 +107,18 @@
     background-image: url(../slice/prev.png);
     background-repeat: no-repeat;
 }
+%qq-hov {
+    width: 20px;
+    height: 20px;
+    background-image: url(../slice/qq-hov.png);
+    background-repeat: no-repeat;
+}
+%qq {
+    width: 20px;
+    height: 20px;
+    background-image: url(../slice/qq.png);
+    background-repeat: no-repeat;
+}
 %title {
     width: 647px;
     height: 99px;
@@ -153,5 +165,29 @@
     width: 35px;
     height: 20px;
     background-image: url(../slice/top.png);
+    background-repeat: no-repeat;
+}
+%wb-hov {
+    width: 31px;
+    height: 25px;
+    background-image: url(../slice/wb-hov.png);
+    background-repeat: no-repeat;
+}
+%wb {
+    width: 31px;
+    height: 25px;
+    background-image: url(../slice/wb.png);
+    background-repeat: no-repeat;
+}
+%wx-hov {
+    width: 33px;
+    height: 26px;
+    background-image: url(../slice/wx-hov.png);
+    background-repeat: no-repeat;
+}
+%wx {
+    width: 33px;
+    height: 26px;
+    background-image: url(../slice/wx.png);
     background-repeat: no-repeat;
 }
