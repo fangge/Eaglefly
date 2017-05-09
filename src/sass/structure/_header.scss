@@ -32,6 +32,7 @@ nav{
     font-size: 18px;
     padding-top:56px;
     @extend %ani;
+    font-weight: 600;
   }
 }
 .nav-link{
@@ -175,4 +176,25 @@ nav{
   bottom:50px;
   margin-left:-232px;
   z-index: 100;
+}
+.art{
+  header,.banner-wrap{
+    height: 480px;
+    overflow: hidden;
+  }
+  header {
+    margin-bottom:22px;
+  }
+  .banner-wrap{
+    img{
+      position: absolute;
+      bottom:-65px;
+      width: 1920px;
+      left:50%;
+      margin-left:-960px;
+    }
+    .banner-title1{
+      top:115px;
+    }
+  }
 }
