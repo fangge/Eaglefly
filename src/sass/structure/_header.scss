@@ -202,3 +202,52 @@ nav{
     }
   }
 }
+.aside-bar{
+  box-sizing: border-box;
+  width: 100px;
+  border:1px solid #ddd;
+  position: fixed;
+  left:50%;
+  margin-left:-790px;
+  z-index: 1001;
+  top:300px;
+  background: #fff;
+  a{
+    display: block;
+    width: 100%;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    border-bottom:1px solid #e7e7e7;
+    @extend %ani;
+    &:hover{
+      background: #036eb6;
+      color: #fff;
+    }
+    &#gotop{
+      height: 58-18px;
+      cursor:pointer;
+      i{
+        display: block;
+        @extend %top;
+        margin: 18px auto 0;
+      }
+      &:hover{
+        background: none;
+        color: #000;
+      }
+    }
+  }
+  .qrcode{
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 0 5px;
+    img{
+      display: block;
+      margin: 15px auto 0;
+    }
+  }
+}

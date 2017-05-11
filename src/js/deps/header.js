@@ -15,4 +15,8 @@ define(function(require, exports, module) {
             $('#nav').removeClass('nav-on nav-fixed')
         }
     })
+
+    $("#gotop").on('click',function () {
+        $('body,html').animate({scrollTop:0},400)
+    })
 })
