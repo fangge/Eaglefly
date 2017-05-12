@@ -7,12 +7,27 @@ seajs.config({
         swiper:'plugins/swiper.js',
         commonApi:'deps/commonApi.js',
         upload:'deps/upload.js',
+        jpage:'plugins/jPages.min.js'
     },
     preload: ["jquery"]
 })
 seajs.use(['jquery','app/main.js'],function () {
     // 全局$
     window.jQuery = window.$ = $;
+    seajs.use('jpage',function () {
+        $('.page-nav').jPages({
+            containerID:"list",
+            previous:"上一页",
+            next:"下一页",
+            perPage:6
+        })
+        $('.page-nav').jPages({
+            containerID:"list2",
+            previous:"上一页",
+            next:"下一页",
+            perPage:12
+        })
+    })
     seajs.use('swiper',function () {
         var swiper = new Swiper('#swiper1', {
             effect: 'fade',
@@ -98,5 +113,7 @@ seajs.use(['jquery','app/main.js'],function () {
     map2.centerAndZoom(point2,15);
     var marker2 = new BMap.Marker(point2);
     map2.addOverlay(marker2);
+    
+
 
 });
