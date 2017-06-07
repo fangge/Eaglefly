@@ -92,7 +92,7 @@ body{
 .sky-cont-intro{
   position: absolute;
   width: 280px;
-  height:246px;
+  min-height:246px;
   background: #f7f7f7;
   top:0;
   z-index: 101;
