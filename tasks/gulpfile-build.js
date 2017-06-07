@@ -38,7 +38,7 @@ module.exports = function(gulp, plugins) {
         return gulp.src('src/css/**/*.css')
             .pipe(plugins.minifyCss({"compatibility":"ie7"}))
             .pipe(plugins.header(banner, { pkg : pkg } ))
-            .pipe(md5(10, 'dest/**/*.html'))
+            // .pipe(md5(10, 'dest/**/*.html'))
             .pipe(gulp.dest('dest/css'))
     })
 
@@ -92,16 +92,12 @@ module.exports = function(gulp, plugins) {
             .pipe(gulp.dest('dest/js'))
     })
     gulp.task('build_js', ['build_sprite','build_libjs','concat_js'], function() {
+        del.sync(['dest/js/deps/**'])
         return gulp.src(['dest/js/**/*.js','!dest/js/app/*.js'])
             .pipe(plugins.uglify(config))
             .pipe(plugins.header(banner, { pkg : pkg } ))
             //.pipe(plugins.replace(/\.\/js\//, "http://vhuya.dwstatic.com/huya-assets/huya-client/js"))
             //.pipe(plugins.replace(/(main\.js|main-play\.js)/, "$1?"+timestamp2))
-            .pipe(gulp.dest('dest/js'))
-    })
-    gulp.task('md5_js', ['build_js'], function() {
-        return gulp.src(['dest/js/**/*.js','!dest/js/app/*.js','!dest/js/deps/*.js','!dest/js/sea.js','!dest/js/plugins/*.js'])
-            .pipe(md5(10, 'dest/**/*.html'))
             .pipe(gulp.dest('dest/js'))
     })
     gulp.task('build_img', function() {
@@ -137,7 +133,7 @@ module.exports = function(gulp, plugins) {
         del.sync(['dest/**'])
     })
 
-    gulp.task('build', ['build_clean', 'md5_js','build_img','build_js'], function(){
+    gulp.task('build', ['build_clean','build_img','build_js'], function(){
         browserSync({
             ui:false,
             server: {

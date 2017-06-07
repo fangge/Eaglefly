@@ -42,7 +42,6 @@ nav{
 .nav-link{
   float:left;
   height: 90px;
-  margin-left:30px;
   @extend %ani;
   li{
     float:left;
@@ -109,7 +108,7 @@ nav{
     }
   }
   .nav-link{
-    margin-left:70px;
+    margin-left:40px;
     li{
       a.nav-link-btn{
         color: #036eb6;
