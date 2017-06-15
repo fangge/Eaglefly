@@ -43,12 +43,12 @@ seajs.use(['jquery','app/main.js'],function () {
                 perPage:12
             })
         }
-
     })
     seajs.use('swiper',function () {
         var swiper = new Swiper('#swiper1', {
             effect: 'fade',
-            autoplay:5000
+            autoplay:5000,
+            lazyLoading : true
         });
         var swiper2 = new Swiper('#swiper2', {
             pagination: '#swiper2 .swiper-pagination',
@@ -58,8 +58,6 @@ seajs.use(['jquery','app/main.js'],function () {
             },
             autoplay:10000
         });
-
-
         var viewSwiper = new Swiper('.coach-view .swiper-container', {
             effect: 'fade',
             prevButton:'.prev-hidden-btn',
