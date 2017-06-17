@@ -1,0 +1,17 @@
+@media screen and (max-width:960px){
+  .art{
+    .main{
+      width: 100%;
+    }
+    min-width: 100%;
+    header,aside,.art-bread,.aside-bar,footer{
+      display: none;
+    }
+    .art-cont{
+      float:none;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 50px 20px 0;
+    }
+  }
+}

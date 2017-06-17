@@ -254,3 +254,15 @@ nav{
   margin-left:0;
   left:0;
 }
+.g-narrow{
+  nav p{
+    font-size: 15px;
+  }
+  .nav-link li a.nav-link-btn{
+    width: 96px;
+  }
+  .nav-link li ul,.nav-link li ul a{
+    width: 96px;
+  }
+}
+
