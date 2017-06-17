@@ -6,7 +6,7 @@
     "webp": true,
     "legolib": false,
     "https": false,
-    "hot": false,
+    "hot": true,
     "isUglifyJs": true,
     "isPackVueStyle": false,
     "vue@2.1": false,

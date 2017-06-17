@@ -8,72 +8,14 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <meta name="renderer" content="webkit">
     <meta name="front-end" content="MrF">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=750, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=750,user-scalable=0">
     
     <!--[if lt IE 9]>
     <script> (function(){ var tags=['header','footer','nav','section','article','aside'];for(var i in tags){document.createElement(tags[i]);}})()</script>
     <![endif]-->
 </head>
 <body class="art">
-<header>
-    <nav id="nav">
-        <div class="main clearfix">
-            <a href="index.html" class="logo"><img src="img/logo.png" alt="鹰飞"></a>
-            <ul class="nav-link">
-                <li><a href="index.html" class="nav-link-btn">首页</a></li>
-                <li><a href="javascript:volid(0);" class="nav-link-btn">双人高空跳伞</a>
-                    <ul>
-                        <li><a href="tandem.html">双人跳伞</a></li>
-                        <li><a href="price.html">跳伞价格</a></li>
-                        <li><a href="question.html">常见问题</a></li>
-                        <li><a href="yuding.html">预定跳伞</a></li></ul>
-                </li>
-                <li><a href="javascript:volid(0);" class="nav-link-btn">跳伞学习</a>
-                    <ul>
-                        <li><a href="drtsty.html">单人跳伞体验</a></li>
-                        <li><a href="drts.html">单人跳伞培训</a></li>
-                        <li><a href="uspa.html">USPA执照介绍</a></li>
-                        <li><a href="tsjlpx.html">跳伞教练培训</a></li>
-                        <li><a href="yzfxpx.html">翼装飞行培训</a></li></ul>
-                </li>
-                <li><a href="javascript:volid(0);" class="nav-link-btn">教练团队</a>
-                    <ul>
-                        <li><a href="zjl.html">基地主教练</a></li>
-                        <li><a href="srsjl.html">双人伞教练</a></li>
-                        <li><a href="zljl.html">助理教练</a></li>
-                        <li><a href="sxs.html">高空摄像师</a></li></ul>
-                </li>
-                <li><a href="javascript:volid(0);" class="nav-link-btn">跳伞基地</a>
-                    <ul>
-                        <li><a href="gdluoding.html">广东罗定</a></li>
-                        <li><a href="sdlaiwu.html">山东莱芜</a></li>
-                        <li><a href="yndali.html">云南大理</a></li></ul>
-                </li>
-                <li><a href="javascript:volid(0);" class="nav-link-btn">图片视频</a>
-                    <ul>
-                        <li><a href="img.html">跳伞图片</a></li>
-                        <li><a href="video.html">精彩视频</a></li>
-                        <li><a href="story.html">跳伞故事</a></li></ul>
-                </li>
-                <li><a href="javascript:volid(0);" class="nav-link-btn">关于鹰飞</a>
-                    <ul>
-                        <li><a href="gsjs.html">公司介绍</a></li>
-                        <li><a href="lxwm.html">联系我们</a></li></ul>
-                </li>
-            </ul>
-            <p>热线：400-668-2933</p>
-        </div>
-    </nav>
-    <div class="banner-wrap">
-        <img src="img/banner4.jpg" alt="">
-        <div class="banner-title1"></div>
-    </div>
-</header>
-<div class="aside-bar">
-    <a id="gotop"><i></i></a>
-    <a href="yuding.html">预约跳伞</a>
-    <div class="qrcode">扫一扫微信 <img src="img/qrcode.jpg" alt=""></div>
-</div>
+<% include partial/header2 %>
 <div class="main clearfix">
     <aside>
         <div class="art-box">
@@ -106,25 +48,7 @@
         </article>
     </section>
 </div>
-<footer>
-    <div class="main">
-        <div class="footer-link">
-            <a href="index.html" class="pr-0">首页</a>|
-            <a href="tandem.html">双人高空跳伞</a>|
-            <a href="drts.html">跳伞学习</a>|
-            <a href="srsjl.html">教练团队</a>|
-            <a href="gdluoding.html">跳伞基地</a>|
-            <a href="video.html">图片视频</a>|
-            <a href="gsjs.html">关于鹰飞</a>
-            <span>热线电话：4006-682-933</span>
-        </div>
-        <div class="footer-copyright">
-            Copyright ©2005 - 2017 重庆鹰飞航空体育俱乐部有限公司罗定分公司  渝ICP备15010301号-1
-            <div class="bdsharebuttonbox" id="bdshare"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a></div>
-            <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-        </div>
-    </div>
-</footer>
+<% include partial/footer %>
 
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6GPH52393juz7pT1rYLGWemlgIL6TWa8"></script>
 <script type="text/javascript" src="js/main.js"></script>
