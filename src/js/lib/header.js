@@ -19,7 +19,7 @@ $(window).on('scroll', function() {
 $("#gotop").on('click',function () {
     $('body,html').animate({scrollTop:0},400)
 })
-$('.mobi-header .nav-link-btn').on('touchstart',function () {
+$('.mobi-header .nav-link-btn').on('click',function () {
     var nav = $(this).parent();
     if(nav.find('.sub-btn').hasClass('sub-btn-on')){
         nav.find('ul').hide();
@@ -30,7 +30,33 @@ $('.mobi-header .nav-link-btn').on('touchstart',function () {
     }
 
 })
-$('.nav-open').on('touchstart',function () {
+$('.nav-open').on('click',function () {
     $(this).toggleClass('nav-close');
     $('.nav-link2').toggleClass('show');
 })
+
+// 宽窄屏状态
+var body = $('body');
+window.isNarrow = body.hasClass('g-narrow');
+
+//宽窄屏切换
+$(window).on('resize', function(){
+    var now = $(window).width();
+    // 页面大小改变时 越过临界点触发
+    if (now < 1220 && !isNarrow) {
+        // 变窄
+        $(window).trigger('resize:narrow');
+        isNarrow = true;
+    } else if (now >= 1220 && isNarrow) {
+        // 变宽
+        $(window).trigger('resize:wide');
+        isNarrow = false;
+    }
+});
+
+$(window).on('resize:narrow', function(){
+    body.addClass('g-narrow');
+}).on('resize:wide', function(){
+    body.removeClass('g-narrow');
+})
+$(window).trigger('resize');
