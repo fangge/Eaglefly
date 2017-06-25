@@ -46,6 +46,13 @@ $(window).load(function() {
         },
         autoplay:10000
     });
+    var swiper = new Swiper('#mobi-coach .swiper-container', {
+        slidesPerView: 3,
+        prevButton:'#mobi-coach .prev-btn',
+        nextButton:'#mobi-coach .next-btn',
+        spaceBetween:20
+    });
+
     var viewSwiper = new Swiper('.coach-view .swiper-container', {
         effect: 'fade',
         prevButton:'.prev-hidden-btn',
