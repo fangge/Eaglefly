@@ -1,4 +1,125 @@
+@import "../img";
+%ani{transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;}
+.mobi-header{
+  display: block;
+  height: 100px;
+  background: #fff;
+  position: relative;
+  z-index: 999;
+  p{
+    text-align: center;
+    font-size: 3.2em;
+    color:#333;
+    line-height: 100px;
+  }
+}
+.back{
+  display: block;
+  @extend %back;
+  position: absolute;
+  top:50%;
+  left:20px;
+  transform: translate(0,-50%);
+}
+.nav-open{
+  width: 50px;
+  height: 6px;
+  background: #0066b2;
+  position: absolute;
+  right:20px;
+  top:50%;
+  transform: translate(0,-50%);
+  &:after,&:before{
+    content:"";
+    width: 50px;
+    height: 6px;
+    background: #0066b2;
+    position: absolute;
+    left:0;
+    transform-origin: 50% 50%;
+    @extend %ani;
+  }
+  &:after{
+    top:15px;
+  }
+  &:before{
+    top:-15px;
+  }
+}
+.nav-close{
+  background: none;
+  &:after,&:before{
+    top:0;
+  }
+  &:after{
+    transform: rotate(45deg);
+  }
+  &:before{
+    transform: rotate(-45deg);
+  }
+}
+.nav-link2{
+  width: 100%;
+  position: absolute;
+  top:100px;
+  z-index: 99;
+  left:0;
+  display: none;
+  li{
+    position: relative;
+  }
+  li a{
+    display: block;
+    background: #0066b2;
+    height: 90px;
+    line-height: 90px;
+    color:#fff;
+    font-size: 2em;
+    box-sizing: border-box;
+    padding-left:22px;
+    border-bottom:1px solid #005696;
+    &:active,&:hover,&:visited{
+      text-decoration: none;
+    }
+  }
+  li ul{
+    display: none;
+  }
+  li ul li a{
+    background: #004b82;
+    padding-left:68px;
+  }
+  .sub-btn{
+    display: block;
+    font-size: 4em;
+    color: #fff;
+    position: absolute;
+    right:10px;
+    top:15px;
+    line-height: 1;
+    .sub-btn2{
+      display: none;
+    }
+  }
+  .sub-btn-on{
+    .sub-btn1{
+      display: none;
+    }
+    .sub-btn2{
+      display: block;
+    }
+  }
+  &.show{
+    display: block;
+  }
+}
 @media screen and (max-width:960px){
+    ,mobi-header{
+      display: block;
+    }
   .art{
     .main{
       width: 100%;
@@ -12,6 +133,22 @@
       width: 100%;
       box-sizing: border-box;
       padding: 50px 20px 0;
+      font-size: 30px;
+      article{
+        h1{
+          font-size: 2.250em;
+        }
+        blockquote{
+          font-size: 0.750em;
+        }
+        p{
+          font-size: 1.063em;
+          line-height: 1.5;
+        }
+      }
     }
+
   }
+
 }
+
