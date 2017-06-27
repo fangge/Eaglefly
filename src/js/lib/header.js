@@ -43,11 +43,11 @@ window.isNarrow = body.hasClass('g-narrow');
 $(window).on('resize', function(){
     var now = $(window).width();
     // 页面大小改变时 越过临界点触发
-    if (now < 1220 && !isNarrow) {
+    if (now < 1448 && !isNarrow) {
         // 变窄
         $(window).trigger('resize:narrow');
         isNarrow = true;
-    } else if (now >= 1220 && isNarrow) {
+    } else if (now >= 1448 && isNarrow) {
         // 变宽
         $(window).trigger('resize:wide');
         isNarrow = false;

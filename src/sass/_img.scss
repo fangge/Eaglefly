@@ -31,6 +31,22 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
+%bg1 {
+	width: 1920px;
+	height: 70px;
+	background-image: url('../img/bg1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+%bg1.png {
+	width: 1920px;
+	height: 70px;
+	background-image: url('../img/bg1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+// -----------------------------------------------
+// -----------------------------------------------
 %banner3 {
 	width: 1920px;
 	height: 944px;
@@ -79,22 +95,6 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%bg1 {
-	width: 1920px;
-	height: 70px;
-	background-image: url('../img/bg1.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-%bg1.png {
-	width: 1920px;
-	height: 70px;
-	background-image: url('../img/bg1.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-// -----------------------------------------------
-// -----------------------------------------------
 %bg3 {
 	width: 1920px;
 	height: 945px;
@@ -127,22 +127,6 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%coach-d1 {
-	width: 1090px;
-	height: 579px;
-	background-image: url('../img/coach-d1.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-%coach-d1.jpg {
-	width: 1090px;
-	height: 579px;
-	background-image: url('../img/coach-d1.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-// -----------------------------------------------
-// -----------------------------------------------
 %coach-d2 {
 	width: 1090px;
 	height: 579px;
@@ -159,17 +143,17 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%coach-d3 {
+%coach-d1 {
 	width: 1090px;
 	height: 579px;
-	background-image: url('../img/coach-d3.jpg');
+	background-image: url('../img/coach-d1.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-%coach-d3.jpg {
+%coach-d1.jpg {
 	width: 1090px;
 	height: 579px;
-	background-image: url('../img/coach-d3.jpg');
+	background-image: url('../img/coach-d1.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -186,6 +170,22 @@
 	width: 1090px;
 	height: 579px;
 	background-image: url('../img/coach-d4.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+// -----------------------------------------------
+// -----------------------------------------------
+%coach-d3 {
+	width: 1090px;
+	height: 579px;
+	background-image: url('../img/coach-d3.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+%coach-d3.jpg {
+	width: 1090px;
+	height: 579px;
+	background-image: url('../img/coach-d3.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -431,22 +431,6 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%sbanner2 {
-	width: 345px;
-	height: 194px;
-	background-image: url('../img/sbanner2.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-%sbanner2.jpg {
-	width: 345px;
-	height: 194px;
-	background-image: url('../img/sbanner2.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-// -----------------------------------------------
-// -----------------------------------------------
 %sbanner1 {
 	width: 345px;
 	height: 194px;
@@ -463,17 +447,17 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%sbanner3 {
+%sbanner2 {
 	width: 345px;
 	height: 194px;
-	background-image: url('../img/sbanner3.jpg');
+	background-image: url('../img/sbanner2.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-%sbanner3.jpg {
+%sbanner2.jpg {
 	width: 345px;
 	height: 194px;
-	background-image: url('../img/sbanner3.jpg');
+	background-image: url('../img/sbanner2.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -490,6 +474,22 @@
 	width: 345px;
 	height: 194px;
 	background-image: url('../img/sbanner4.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+// -----------------------------------------------
+// -----------------------------------------------
+%sbanner3 {
+	width: 345px;
+	height: 194px;
+	background-image: url('../img/sbanner3.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+%sbanner3.jpg {
+	width: 345px;
+	height: 194px;
+	background-image: url('../img/sbanner3.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -527,22 +527,6 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%sbanner7 {
-	width: 345px;
-	height: 194px;
-	background-image: url('../img/sbanner7.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-%sbanner7.jpg {
-	width: 345px;
-	height: 194px;
-	background-image: url('../img/sbanner7.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-// -----------------------------------------------
-// -----------------------------------------------
 %sbanner8 {
 	width: 345px;
 	height: 194px;
@@ -554,6 +538,22 @@
 	width: 345px;
 	height: 194px;
 	background-image: url('../img/sbanner8.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+// -----------------------------------------------
+// -----------------------------------------------
+%sbanner7 {
+	width: 345px;
+	height: 194px;
+	background-image: url('../img/sbanner7.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+%sbanner7.jpg {
+	width: 345px;
+	height: 194px;
+	background-image: url('../img/sbanner7.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -669,20 +669,6 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%btn1-hov {
-	width: 144px;
-	height: 145px;
-	background-image: url('../img/slice/btn1-hov.png');
-	background-repeat: no-repeat;
-}
-%slice-btn1-hov.png {
-	width: 144px;
-	height: 145px;
-	background-image: url('../img/slice/btn1-hov.png');
-	background-repeat: no-repeat;
-}
-// -----------------------------------------------
-// -----------------------------------------------
 %banner-text1 {
 	width: 602px;
 	height: 314px;
@@ -693,6 +679,20 @@
 	width: 602px;
 	height: 314px;
 	background-image: url('../img/slice/banner-text1.png');
+	background-repeat: no-repeat;
+}
+// -----------------------------------------------
+// -----------------------------------------------
+%btn1-hov {
+	width: 144px;
+	height: 145px;
+	background-image: url('../img/slice/btn1-hov.png');
+	background-repeat: no-repeat;
+}
+%slice-btn1-hov.png {
+	width: 144px;
+	height: 145px;
+	background-image: url('../img/slice/btn1-hov.png');
 	background-repeat: no-repeat;
 }
 // -----------------------------------------------
@@ -711,20 +711,6 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%btn2-hov {
-	width: 144px;
-	height: 145px;
-	background-image: url('../img/slice/btn2-hov.png');
-	background-repeat: no-repeat;
-}
-%slice-btn2-hov.png {
-	width: 144px;
-	height: 145px;
-	background-image: url('../img/slice/btn2-hov.png');
-	background-repeat: no-repeat;
-}
-// -----------------------------------------------
-// -----------------------------------------------
 %btn2 {
 	width: 144px;
 	height: 145px;
@@ -735,6 +721,20 @@
 	width: 144px;
 	height: 145px;
 	background-image: url('../img/slice/btn2.png');
+	background-repeat: no-repeat;
+}
+// -----------------------------------------------
+// -----------------------------------------------
+%btn2-hov {
+	width: 144px;
+	height: 145px;
+	background-image: url('../img/slice/btn2-hov.png');
+	background-repeat: no-repeat;
+}
+%slice-btn2-hov.png {
+	width: 144px;
+	height: 145px;
+	background-image: url('../img/slice/btn2-hov.png');
 	background-repeat: no-repeat;
 }
 // -----------------------------------------------
@@ -879,20 +879,6 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%next {
-	width: 31px;
-	height: 57px;
-	background-image: url('../img/slice/next.png');
-	background-repeat: no-repeat;
-}
-%slice-next.png {
-	width: 31px;
-	height: 57px;
-	background-image: url('../img/slice/next.png');
-	background-repeat: no-repeat;
-}
-// -----------------------------------------------
-// -----------------------------------------------
 %prev-hov {
 	width: 31px;
 	height: 57px;
@@ -903,6 +889,20 @@
 	width: 31px;
 	height: 57px;
 	background-image: url('../img/slice/prev-hov.png');
+	background-repeat: no-repeat;
+}
+// -----------------------------------------------
+// -----------------------------------------------
+%next {
+	width: 31px;
+	height: 57px;
+	background-image: url('../img/slice/next.png');
+	background-repeat: no-repeat;
+}
+%slice-next.png {
+	width: 31px;
+	height: 57px;
+	background-image: url('../img/slice/next.png');
 	background-repeat: no-repeat;
 }
 // -----------------------------------------------
@@ -935,20 +935,6 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%qq {
-	width: 20px;
-	height: 20px;
-	background-image: url('../img/slice/qq.png');
-	background-repeat: no-repeat;
-}
-%slice-qq.png {
-	width: 20px;
-	height: 20px;
-	background-image: url('../img/slice/qq.png');
-	background-repeat: no-repeat;
-}
-// -----------------------------------------------
-// -----------------------------------------------
 %snext {
 	width: 40px;
 	height: 40px;
@@ -959,6 +945,20 @@
 	width: 40px;
 	height: 40px;
 	background-image: url('../img/slice/snext.png');
+	background-repeat: no-repeat;
+}
+// -----------------------------------------------
+// -----------------------------------------------
+%qq {
+	width: 20px;
+	height: 20px;
+	background-image: url('../img/slice/qq.png');
+	background-repeat: no-repeat;
+}
+%slice-qq.png {
+	width: 20px;
+	height: 20px;
+	background-image: url('../img/slice/qq.png');
 	background-repeat: no-repeat;
 }
 // -----------------------------------------------
@@ -977,20 +977,6 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%stitle2 {
-	width: 392px;
-	height: 64px;
-	background-image: url('../img/slice/stitle2.png');
-	background-repeat: no-repeat;
-}
-%slice-stitle2.png {
-	width: 392px;
-	height: 64px;
-	background-image: url('../img/slice/stitle2.png');
-	background-repeat: no-repeat;
-}
-// -----------------------------------------------
-// -----------------------------------------------
 %stitle1 {
 	width: 433px;
 	height: 65px;
@@ -1001,6 +987,20 @@
 	width: 433px;
 	height: 65px;
 	background-image: url('../img/slice/stitle1.png');
+	background-repeat: no-repeat;
+}
+// -----------------------------------------------
+// -----------------------------------------------
+%stitle2 {
+	width: 392px;
+	height: 64px;
+	background-image: url('../img/slice/stitle2.png');
+	background-repeat: no-repeat;
+}
+%slice-stitle2.png {
+	width: 392px;
+	height: 64px;
+	background-image: url('../img/slice/stitle2.png');
 	background-repeat: no-repeat;
 }
 // -----------------------------------------------
@@ -1089,20 +1089,6 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%top-hov {
-	width: 35px;
-	height: 20px;
-	background-image: url('../img/slice/top-hov.png');
-	background-repeat: no-repeat;
-}
-%slice-top-hov.png {
-	width: 35px;
-	height: 20px;
-	background-image: url('../img/slice/top-hov.png');
-	background-repeat: no-repeat;
-}
-// -----------------------------------------------
-// -----------------------------------------------
 %title6 {
 	width: 444px;
 	height: 98px;
@@ -1113,6 +1099,20 @@
 	width: 444px;
 	height: 98px;
 	background-image: url('../img/slice/title6.png');
+	background-repeat: no-repeat;
+}
+// -----------------------------------------------
+// -----------------------------------------------
+%top-hov {
+	width: 35px;
+	height: 20px;
+	background-image: url('../img/slice/top-hov.png');
+	background-repeat: no-repeat;
+}
+%slice-top-hov.png {
+	width: 35px;
+	height: 20px;
+	background-image: url('../img/slice/top-hov.png');
 	background-repeat: no-repeat;
 }
 // -----------------------------------------------
@@ -1173,6 +1173,20 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
+%wx-hov {
+	width: 33px;
+	height: 26px;
+	background-image: url('../img/slice/wx-hov.png');
+	background-repeat: no-repeat;
+}
+%slice-wx-hov.png {
+	width: 33px;
+	height: 26px;
+	background-image: url('../img/slice/wx-hov.png');
+	background-repeat: no-repeat;
+}
+// -----------------------------------------------
+// -----------------------------------------------
 %wx {
 	width: 33px;
 	height: 26px;
@@ -1187,16 +1201,18 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%wx-hov {
-	width: 33px;
-	height: 26px;
-	background-image: url('../img/slice/wx-hov.png');
+%story1 {
+	width: 280px;
+	height: 280px;
+	background-image: url('../img/story1.jpg');
+	background-size: contain;
 	background-repeat: no-repeat;
 }
-%slice-wx-hov.png {
-	width: 33px;
-	height: 26px;
-	background-image: url('../img/slice/wx-hov.png');
+%story1.jpg {
+	width: 280px;
+	height: 280px;
+	background-image: url('../img/story1.jpg');
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 // -----------------------------------------------
@@ -1228,22 +1244,6 @@
 	width: 280px;
 	height: 280px;
 	background-image: url('../img/story2.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-// -----------------------------------------------
-// -----------------------------------------------
-%story1 {
-	width: 280px;
-	height: 280px;
-	background-image: url('../img/story1.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-%story1.jpg {
-	width: 280px;
-	height: 280px;
-	background-image: url('../img/story1.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -1377,22 +1377,6 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%student4 {
-	width: 160px;
-	height: 160px;
-	background-image: url('../img/student4.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-%student4.jpg {
-	width: 160px;
-	height: 160px;
-	background-image: url('../img/student4.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-// -----------------------------------------------
-// -----------------------------------------------
 %student3 {
 	width: 160px;
 	height: 160px;
@@ -1404,6 +1388,22 @@
 	width: 160px;
 	height: 160px;
 	background-image: url('../img/student3.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+// -----------------------------------------------
+// -----------------------------------------------
+%student4 {
+	width: 160px;
+	height: 160px;
+	background-image: url('../img/student4.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+%student4.jpg {
+	width: 160px;
+	height: 160px;
+	background-image: url('../img/student4.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -1425,22 +1425,6 @@
 }
 // -----------------------------------------------
 // -----------------------------------------------
-%student7 {
-	width: 160px;
-	height: 160px;
-	background-image: url('../img/student7.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-%student7.jpg {
-	width: 160px;
-	height: 160px;
-	background-image: url('../img/student7.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-// -----------------------------------------------
-// -----------------------------------------------
 %student6 {
 	width: 160px;
 	height: 160px;
@@ -1452,6 +1436,22 @@
 	width: 160px;
 	height: 160px;
 	background-image: url('../img/student6.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+// -----------------------------------------------
+// -----------------------------------------------
+%student7 {
+	width: 160px;
+	height: 160px;
+	background-image: url('../img/student7.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+%student7.jpg {
+	width: 160px;
+	height: 160px;
+	background-image: url('../img/student7.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -1484,6 +1484,22 @@
 	width: 160px;
 	height: 160px;
 	background-image: url('../img/student9.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+// -----------------------------------------------
+// -----------------------------------------------
+%video-2 {
+	width: 280px;
+	height: 160px;
+	background-image: url('../img/video-2.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+%video-2.jpg {
+	width: 280px;
+	height: 160px;
+	background-image: url('../img/video-2.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -1532,22 +1548,6 @@
 	width: 280px;
 	height: 160px;
 	background-image: url('../img/video-3.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-// -----------------------------------------------
-// -----------------------------------------------
-%video-2 {
-	width: 280px;
-	height: 160px;
-	background-image: url('../img/video-2.jpg');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-%video-2.jpg {
-	width: 280px;
-	height: 160px;
-	background-image: url('../img/video-2.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 }
