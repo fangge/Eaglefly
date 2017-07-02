@@ -7,8 +7,15 @@ require('./lib/header');
 $(window).load(function() {
     $('.moment').find('a').on('click',function(){
         var url = $(this).attr('data-href'),id = url.match(/http:\/\/v\.youku\.com\/v_show\/id_(.+)\.html/)[1];
-        $('#video-pop').html("<embed src='http://static.youku.com/v20170518.0/v/swf/upsplayer/loader.swf?VideoIDS="+id+"&isAutoPlay=true&embedid=MjE4LjE5LjQxLjE3MAI2OTE3NjM4OTcCAg%3D%3D&wd=&winType=adshow&cna=dLuREWxPpncCAduJtEzsztAm&partnerid=0edbfd2e4fc91b72&vext=pid%253D0edbfd2e4fc91b72%2526emb%253DMjE4LjE5LjQxLjE3MAI2OTE3NjM4OTcCAg%253D%253D%2526bc%253D%2526cna%253DdLuREWxPpncCAduJtEzsztAm%2526vvlogext%253Dpc_i%25253D1494340674365RHB%252526pc_u%25253D-%252526rvpvid%25253D-%252526rycid%25253D-%252526yvft%25253D1496311498031%252526vsidc%25253D1%252526seid%25253D1496295717225hPw%252526vstp%25253D13%252526svstp%25253D21%2526type%253D0%2526embsig%253D1_1496312684_774c5b2bbd5050f0424aff14a085d0d8' allowFullScreen='true' quality='high' width='600' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>").show();
-        $('#video-wrap').show();
+        if(/Android|webOS|iPhone|Windows Phone|iPod|BlackBerry|SymbianOS/i.test(window.navigator.userAgent)){
+            //如果是手机，直接打开播放页
+            window.open(url);
+        }else{
+            $('#video-pop').html("<embed src='http://static.youku.com/v20170518.0/v/swf/upsplayer/loader.swf?VideoIDS="+id+"&isAutoPlay=true&embedid=MjE4LjE5LjQxLjE3MAI2OTE3NjM4OTcCAg%3D%3D&wd=&winType=adshow&cna=dLuREWxPpncCAduJtEzsztAm&partnerid=0edbfd2e4fc91b72&vext=pid%253D0edbfd2e4fc91b72%2526emb%253DMjE4LjE5LjQxLjE3MAI2OTE3NjM4OTcCAg%253D%253D%2526bc%253D%2526cna%253DdLuREWxPpncCAduJtEzsztAm%2526vvlogext%253Dpc_i%25253D1494340674365RHB%252526pc_u%25253D-%252526rvpvid%25253D-%252526rycid%25253D-%252526yvft%25253D1496311498031%252526vsidc%25253D1%252526seid%25253D1496295717225hPw%252526vstp%25253D13%252526svstp%25253D21%2526type%253D0%2526embsig%253D1_1496312684_774c5b2bbd5050f0424aff14a085d0d8' allowFullScreen='true' quality='high' width='600' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>").show();
+            $('#video-wrap').show();
+        }
+
+
     })
 
     $('#video-wrap').on('click',function(){
